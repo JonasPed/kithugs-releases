@@ -12,6 +12,7 @@ public class HelloServiceImpl implements HelloService {
         output.setNow(ZonedDateTime.now());
         output.setName(input.getName());
 
+
         return output;
     }
 }
