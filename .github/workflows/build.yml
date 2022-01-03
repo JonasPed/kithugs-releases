@@ -96,6 +96,6 @@ jobs:
 #      if: ${{ steps.tag.conclusion != 'skipped' }}
 #
     - uses: ncipollo/release-action@v1
+      if: ${{ steps.tag.conclusion != 'skipped' }}
       with:
-        if: ${{ steps.tag.conclusion != 'skipped' }}
         token: ${{ secrets.GITHUB_TOKEN }}
