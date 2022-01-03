@@ -98,4 +98,5 @@ jobs:
     - uses: ncipollo/release-action@v1
       if: ${{ steps.tag.conclusion != 'skipped' }}
       with:
+        generateReleaseNotes: true
         token: ${{ secrets.GITHUB_TOKEN }}
