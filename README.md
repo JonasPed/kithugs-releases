@@ -51,8 +51,6 @@ Blah...
 
 
 
-hej hej hej.
-
 jaja
 
 en anden fed feature.i
