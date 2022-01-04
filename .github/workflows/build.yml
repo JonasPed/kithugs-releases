@@ -94,8 +94,8 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       if: ${{ steps.tag.conclusion != 'skipped' }}
-      with:
-        generate_release_notes: true
+#      with:
+#        generate_release_notes: true
 
 #
 #    - uses: ncipollo/release-action@v1
