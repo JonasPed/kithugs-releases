@@ -46,25 +46,3 @@ Health URL that can be used for readiness probe: `http://localhost:8081/actuator
 | LOG_LEVEL_FRAMEWORK | Log level for framework. Defaults to INFO. | No |
 | CORRELATION_ID | HTTP header to take correlation id from. Used to correlate log messages. Defaults to "x-request-id". | No
 
-
-Blah...
-
-
-En anden fed feature.
-hej hej hej.
-
-jaja
-
-en anden fed feature.i
-
-
-Nogle flere rettelser.
-
-Endnu fed feature
-Sikke noget godt værk vi får lavet.
-
-
-fjdslk.
-Noget sludderEn anden featurefds
-
-fds..
